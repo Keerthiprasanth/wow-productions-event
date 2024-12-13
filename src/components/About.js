@@ -1,5 +1,5 @@
 import React from "react";
-import natalieImage from "../images/natalieImage.jpeg"
+import natalieImage from "../images/natalieImage.jpeg";
 
 function About() {
   const address = "1 Darker Street, Leicester LE1 4SL";
@@ -8,7 +8,10 @@ function About() {
   )}`;
 
   return (
-    <div id="about" className="p-8 bg-gradient-to-r from-customGreen-200 via-customGreen-100 to-customGreen-50 text-black">
+    <div
+      id="about"
+      className="p-8 bg-gradient-to-r from-customGreen-200 via-customGreen-100 to-customGreen-50 text-black"
+    >
       <div className="container mx-auto text-center">
         <h2 className="text-2xl font-bold mb-14">Event Details</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 animate-fadeInTopToBottom">
@@ -53,9 +56,12 @@ function About() {
             <div className="flex flex-col items-center md:flex-row justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-6">
               <div className="text-center md:text-left">
                 <div className="relative inline-flex items-center justify-center bg-customGreen-400 text-white rounded-full w-40 h-32 shadow-md">
-                  <span className="text-4xl font-bold animate-bounce delay-300">
-                    £15
-                  </span>
+                  <a
+                    href="https://www.eventbrite.co.uk/e/wow-productions-the-ultimate-heels-dance-class-party-games-experience-tickets-1112892374049?aff=oddtdtcreator"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-4xl font-bold animate-bounce delay-300"
+                  >£15</a>
                 </div>
                 <p className="text-lg text-gray-600 mt-4">
                   (Limited Spaces Available)
@@ -65,8 +71,13 @@ function About() {
           </div>
         </div>
 
-        <div id="host" className="mt-16 bg-white rounded-lg shadow-md p-8 text-left">
-          <h3 className="text-2xl font-bold mb-6 text-center">Meet Your Host</h3>
+        <div
+          id="host"
+          className="mt-16 bg-white rounded-lg shadow-md p-8 text-left"
+        >
+          <h3 className="text-2xl font-bold mb-6 text-center">
+            Meet Your Host
+          </h3>
           <div className="flex flex-col md:flex-row items-center md:items-start">
             <img
               src={natalieImage}
@@ -75,20 +86,27 @@ function About() {
             />
             <div>
               <p className="text-lg font-semibold">
-                Natalie Nicole James is an artistic dance and circus movement teacher and creator.
+                Natalie Nicole James is an artistic dance and circus movement
+                teacher and creator.
               </p>
               <p className="mt-4 text-gray-700">
-                From 2012 to 2015, Natalie studied at the National Centre for Circus Arts, receiving a full scholarship to
-                train and specialise in dance-trapeze. She graduated with a BA Honours in Circus Arts and has since
-                performed extensively, including a lead role in Metta Theatre's adaptation of Kipling's *Jungle Book*.
+                From 2012 to 2015, Natalie studied at the National Centre for
+                Circus Arts, receiving a full scholarship to train and
+                specialise in dance-trapeze. She graduated with a BA Honours in
+                Circus Arts and has since performed extensively, including a
+                lead role in Metta Theatre's adaptation of Kipling's *Jungle
+                Book*.
               </p>
               <p className="mt-4 text-gray-700">
-                Natalie has also been part of the Beijing Olympics Torch ceremony in 2008 and has collaborated with
-                renowned artists and mentors such as Kenrick Sandy MBE, Jonzi D, and Jasmin Vardimon. Her movement
-                vocabulary blends circus, contemporary dance, hip hop, and physical theatre.
+                Natalie has also been part of the Beijing Olympics Torch
+                ceremony in 2008 and has collaborated with renowned artists and
+                mentors such as Kenrick Sandy MBE, Jonzi D, and Jasmin Vardimon.
+                Her movement vocabulary blends circus, contemporary dance, hip
+                hop, and physical theatre.
               </p>
               <p className="mt-4 text-gray-700">
-                Day to day, Natalie enjoys mentoring, writing, and creating something positive out of nothing.
+                Day to day, Natalie enjoys mentoring, writing, and creating
+                something positive out of nothing.
               </p>
             </div>
           </div>
