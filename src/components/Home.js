@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import { FaInstagram } from "react-icons/fa";
 import heelDance1 from "../images/heel-dance-1.jpg";
 import heelDance2 from "../images/heel-dance-2.jpg";
 import interactiveGames1 from "../images/interactive-games-2.jpg";
@@ -78,58 +77,33 @@ function Home() {
       </div>
 
       <div className="mt-8 text-center space-y-8">
-        <h2 className="text-2xl md:text-3xl font-bold text-customGreen">
-          W.O.W PRODUCTIONS! PRESENTS originated out of a need amongst friends
-          following the pandemic to find and attend a local heels dance class
-          together
+        <h2 className="italic text-2xl md:text-3xl font-bold text-customGreen font-se">
+          W.O.W Productions Presents
         </h2>
 
-        <div className="mt-8 text-center space-y-6">
+        <div className="mt-8 text-center space-y-6 font-serif">
           <p className="text-lg leading-relaxed text-gray-800">
-            As neither of us could locate anywhere in Leicester, Natalie decided
-            to arrange and lead a session for her friends with regular sessions
-            intended to follow. What began as a vibrant and memorable social
-            gathering, has since evolved into a professional service that offers
-            a range of services and packages for special occasions, such as
-            birthdays, hen parties, social gatherings, and team-building. Every
-            one of our packages is designed to meet your needs, both now and in
-            the future.
+            <span className="italic">W.O.W</span> originated out of a conversation amongst friends following the
+            pandemic to find and attend a local heels dance class together. As
+            neither of them could locate anywhere to attend in Leicester,
+            Natalie decided to arrange one herself and lead a session herself
+            for her group of friends, making a celebration out of the occasion.
           </p>
           <p className="text-lg leading-relaxed text-gray-800 mt-4">
-            W.O.W. works with companies and creatives to fulfil both your
-            objectives and work within your financial preferences. Provide your
-            requirements and we can take it from there and turn it into a
-            reality.
+            What began as a vibrant and memorable social gathering, has since
+            evolved into a professional service that offers a range of services
+            and packages for special occasions, such as birthdays, hen parties,
+            social gatherings, and team-building. Every one of our packages is
+            designed to meet your needs, both now and in the future. <span className="italic">W.O.W </span>work
+            with companies and creatives to fulfil both your objectives and work
+            within your financial preferences. Provide your requirements and we
+            can take it from there and turn it into a reality.
           </p>
-          <p className="text-lg leading-relaxed text-gray-800 mt-4">
-            Multi-talented circus and dance performer{" "}
-            <a
-              href="#host"
-              className="font-semibold text-customGreen-600 hover:underline"
-            >
-              Natalie Nicole James
-            </a>{" "}
-            brings a wealth of expertise to the events sector from her work at
-            numerous festivals and on stages, including the Jungle Book
-            adaptation by Metta Theatre. From 2007 to 2023, she directed and
-            performed often and established a milestone as the first aerialist
-            to perform at Breakin' Convention Sadler's Wells mainstage and the
-            first trapeze artist to create work at Move It at London Excel
-            mainstage. Working with English National Opera, Boy Blue, Ockham's
-            Razor, and as a choreographer and dance instructor for Disney's The
-            Lion King Cub Academy six-week audition program allowed her to use
-            her variety of skills while also honing them.
-          </p>
-          <p className="text-lg leading-relaxed text-gray-800 mt-4">
-            Her trajectory from playground creativity as a child to professional
-            artistry has influenced W.O.W.'s mission: to celebrate life, build
-            relationships, encourage inclusivity and accessibility, and foster
-            collaborative leadership networks.
-          </p>
+          
         </div>
 
         <div className="mt-8 text-center space-y-6">
-          <p className="text-lg font-semibold text-customGreen-600">
+          <p className="text-lg font-semibold">
             Join us for an unforgettable evening at CDCA, 1 Darker Street, where
             energy, laughter, and celebration take center stage!
           </p>
@@ -148,7 +122,7 @@ function Home() {
               alt={images[currentIndex].caption}
               className="rounded-lg shadow-lg w-full h-auto"
             />
-            <p className="absolute inset-0 flex items-center justify-center text-white text-xl font-semibold bg-black/30">
+            <p className="absolute inset-0 flex items-center justify-center text-white text-2xl font-semibold bg-black/30">
               {images[currentIndex].caption}
             </p>
           </div>
@@ -173,7 +147,7 @@ function Home() {
       </div>
 
       <div className="mt-8 text-center">
-        <p className="text-lg font-semibold text-customGreen-800">
+        <p className="text-lg font-semibold">
           Don’t miss out on this fantastic evening of entertainment and
           celebration!
         </p>

@@ -7,9 +7,11 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Home />
-      <About />
-      <Footer />
+      <div className="pt-14">
+        <Home />
+        <About />
+        <Footer />
+      </div>
     </div>
   );
 }

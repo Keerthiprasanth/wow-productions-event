@@ -10,7 +10,7 @@ function About() {
   return (
     <div
       id="about"
-      className="p-8 bg-gradient-to-r from-customGreen-200 via-customGreen-100 to-customGreen-50 text-black"
+      className="p-8 bg-gradient-to-r bg-customGreen-50 text-black"
     >
       <div className="container mx-auto text-center">
         <h2 className="text-2xl font-bold mb-14">Event Details</h2>
@@ -61,7 +61,9 @@ function About() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-4xl font-bold animate-bounce delay-300"
-                  >£15</a>
+                  >
+                    £15
+                  </a>
                 </div>
                 <p className="text-lg text-gray-600 mt-4">
                   (Limited Spaces Available)
@@ -73,41 +75,56 @@ function About() {
 
         <div
           id="host"
-          className="mt-16 bg-white rounded-lg shadow-md p-8 text-left"
+          className="mt-16 bg-white rounded-lg shadow-md p-8 text-center"
         >
-          <h3 className="text-2xl font-bold mb-6 text-center">
+          <h3 className="text-2xl font-bold mb-6 text-customGreen">
             Meet Your Host
           </h3>
           <div className="flex flex-col md:flex-row items-center md:items-start">
             <img
               src={natalieImage}
               alt="Natalie Nicole James"
-              className="w-auto h-72 rounded-lg shadow-md mb-6 md:mb-0 md:mr-8"
+              className="w-48 h-72 object-cover rounded-sm mb-6 md:mb-0 md:mr-8"
             />
-            <div>
-              <p className="text-lg font-semibold">
-                Natalie Nicole James is an artistic dance and circus movement
-                teacher and creator.
+            <div className="text-center md:text-left">
+              <p className="text-lg font-semibold text-customGreen">
+                Natalie Nicole James
               </p>
-              <p className="mt-4 text-gray-700">
-                From 2012 to 2015, Natalie studied at the National Centre for
-                Circus Arts, receiving a full scholarship to train and
-                specialise in dance-trapeze. She graduated with a BA Honours in
-                Circus Arts and has since performed extensively, including a
-                lead role in Metta Theatre's adaptation of Kipling's *Jungle
-                Book*.
-              </p>
-              <p className="mt-4 text-gray-700">
-                Natalie has also been part of the Beijing Olympics Torch
-                ceremony in 2008 and has collaborated with renowned artists and
-                mentors such as Kenrick Sandy MBE, Jonzi D, and Jasmin Vardimon.
-                Her movement vocabulary blends circus, contemporary dance, hip
-                hop, and physical theatre.
-              </p>
-              <p className="mt-4 text-gray-700">
-                Day to day, Natalie enjoys mentoring, writing, and creating
-                something positive out of nothing.
-              </p>
+              <div className="font-serif">
+                <p className="mt-4 text-gray-700 leading-relaxed">
+                  Multi-talented professional circus and dance leader who brings
+                  a wealth of expertise to the events sector from her own work
+                  at numerous festivals,{" "}
+                  <span className="italic">BBC Radio</span>, publishing, and
+                  theatre platforms— including the adaptation by{" "}
+                  <span className="italic">Metta Theatres’ Jungle Book</span>{" "}
+                  modern-day adaptation as the lead role and ensemble. From 2007
+                  to 2023, she directed and performed often as a soloist and
+                  established a milestone as the first aerialist to perform at{" "}
+                  <span className="italic">
+                    Breakin' Convention at Sadler's Wells
+                  </span>{" "}
+                  mainstage and the first trapeze artist to create work at{" "}
+                  <span className="italic">Move It at London Excel</span>{" "}
+                  mainstage. Working with the renowned{" "}
+                  <span className="italic">
+                    English National Opera, Boy Blue, Ockham's Razor
+                  </span>
+                  , and as a choreographer and dance instructor for{" "}
+                  <span className="italic">
+                    Disney's The Lion King Cub Academy
+                  </span>{" "}
+                  six-week audition program allowed her to use her variety of
+                  skills while also honing them.
+                </p>
+                <p className="mt-4 text-gray-700 leading-relaxed">
+                  Her trajectory from playground creativity as a child to
+                  professional artistry has influenced{" "}
+                  <span className="italic">W.O.W</span>’s mission: to celebrate
+                  life, build relationships, encourage inclusivity and
+                  accessibility, and foster collaborative leadership networks.
+                </p>
+              </div>
             </div>
           </div>
         </div>
