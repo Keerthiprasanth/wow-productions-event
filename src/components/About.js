@@ -10,7 +10,7 @@ function About() {
   return (
     <div
       id="about"
-      className="p-8 bg-gradient-to-r bg-customGreen-50 text-black"
+      className="p-8 bg-customGreen-50 text-black"
     >
       <div className="container mx-auto text-center">
         <h2 className="text-2xl font-bold mb-14">Event Details</h2>
@@ -90,8 +90,8 @@ function About() {
               <p className="text-lg font-semibold text-customGreen">
                 Natalie Nicole James
               </p>
-              <div className="font-serif">
-                <p className="mt-4 text-gray-700 leading-relaxed">
+              <div className="text-sm md:text-base font-serif">
+                <p className="mt-4 text-gray-800 leading-relaxed">
                   Multi-talented professional circus and dance leader who brings
                   a wealth of expertise to the events sector from her own work
                   at numerous festivals,{" "}

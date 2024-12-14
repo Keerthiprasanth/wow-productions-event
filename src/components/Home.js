@@ -77,19 +77,19 @@ function Home() {
       </div>
 
       <div className="mt-8 text-center space-y-8">
-        <h2 className="italic text-2xl md:text-3xl font-bold text-customGreen font-se">
+        <h2 className="italic text-2xl md:text-4xl font-bold text-customGreen font-se">
           W.O.W Productions Presents
         </h2>
 
-        <div className="mt-8 text-center space-y-6 font-serif">
-          <p className="text-lg leading-relaxed text-gray-800">
+        <div className="text-sm md:text-lg mt-8 text-center space-y-6 font-serif">
+          <p className="leading-relaxed text-gray-800">
             <span className="italic">W.O.W</span> originated out of a conversation amongst friends following the
             pandemic to find and attend a local heels dance class together. As
             neither of them could locate anywhere to attend in Leicester,
             Natalie decided to arrange one herself and lead a session herself
             for her group of friends, making a celebration out of the occasion.
           </p>
-          <p className="text-lg leading-relaxed text-gray-800 mt-4">
+          <p className="leading-relaxed text-gray-800 mt-4">
             What began as a vibrant and memorable social gathering, has since
             evolved into a professional service that offers a range of services
             and packages for special occasions, such as birthdays, hen parties,
