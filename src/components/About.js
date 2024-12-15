@@ -13,7 +13,7 @@ function About() {
       className="p-4 md:p-8 bg-customGreen-50 text-black"
     >
       <div className="container mx-auto text-center">
-        <h2 className="text-2xl font-bold mb-14">Event Details</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-14 tracking-wide">Event Details</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 animate-fadeInTopToBottom">
           <div className="order-2 md:order-1 border-4 border-customGreen rounded-lg overflow-hidden shadow-md">
             <iframe
@@ -77,7 +77,7 @@ function About() {
           id="host"
           className="mt-16 bg-white rounded-lg shadow-md p-4 md:p-8 text-center"
         >
-          <h3 className="text-2xl font-bold mb-6 text-customGreen">
+          <h3 className="text-2xl font-bold mb-6 text-customGreen tracking-wide">
             Meet Your Host
           </h3>
           <div className="flex flex-col md:flex-row items-center md:items-start">
@@ -87,7 +87,7 @@ function About() {
               className="w-48 h-72 object-cover rounded-sm mb-6 md:mb-0 md:mr-8"
             />
             <div className="text-center md:text-left">
-              <p className="text-lg font-semibold text-customGreen">
+              <p className="text-lg font-semibold text-customGreen tracking-wider">
                 Natalie Nicole James
               </p>
               <div className="text-sm md:text-base font-serif">

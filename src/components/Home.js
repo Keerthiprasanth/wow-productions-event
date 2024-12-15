@@ -70,14 +70,14 @@ function Home() {
             alt="Heels Dance"
             className="rounded-lg shadow-lg w-full h-full"
           />
-          <h1 className="absolute inset-0 flex items-center justify-center rounded-lg text-white text-2xl md:text-6xl font-bold bg-black/30 p-2 md:p-4 text-center">
+          <h1 className="absolute inset-0 flex items-center justify-center rounded-lg text-white text-2xl md:text-6xl font-bold bg-black/30 p-2 md:p-4 text-center tracking-wide">
             The Ultimate Heels Dance Class & Party Games Experience
           </h1>
         </div>
       </div>
 
       <div className="mt-8 text-center space-y-8">
-        <h2 className="italic text-2xl md:text-4xl font-bold text-customGreen font-se">
+        <h2 className="italic text-2xl md:text-4xl font-bold text-customGreen tracking-wide">
           W.O.W Productions Presents
         </h2>
 
@@ -103,7 +103,7 @@ function Home() {
         </div>
 
         <div className="mt-8 text-center space-y-6">
-          <p className="text-lg font-semibold">
+          <p className="text-base md:text-lg font-semibold tracking-wide">
             Join us for an unforgettable evening at CDCA, 1 Darker Street, where
             energy, laughter, and celebration take center stage!
           </p>
@@ -111,7 +111,7 @@ function Home() {
       </div>
 
       <div className="mt-8 bg-slate-50 py-4 px-2 md:p-5">
-  <h3 className="text-2xl font-semibold text-center">Event Highlights</h3>
+  <h3 className="text-2xl font-semibold text-center tracking-wide">Event Highlights</h3>
   <div className="relative max-w-2xl mx-auto mt-8">
     <div
       key={currentIndex}
@@ -120,7 +120,7 @@ function Home() {
       <img
         src={images[currentIndex].src}
         alt={images[currentIndex].caption}
-        className="rounded-lg shadow-lg w-full h-64 object-cover"
+        className="rounded-lg shadow-lg w-full h-64 md:h-96 object-cover"
       />
       <p className="absolute inset-0 flex items-center justify-center rounded-lg text-white text-2xl font-semibold bg-black/30">
         {images[currentIndex].caption}
@@ -128,7 +128,7 @@ function Home() {
     </div>
     <p
       key={`${currentIndex}-description`}
-      className="flex items-center justify-center text-black text-lg mt-4 animate-fadeInRightToLeft"
+      className="flex items-center justify-center text-black text-base md:text-xl tracking-wider mt-4 animate-fadeInRightToLeft"
     >
       {images[currentIndex].description}
     </p>
@@ -148,7 +148,7 @@ function Home() {
 
 
       <div className="mt-8 text-center">
-        <p className="text-lg font-semibold">
+        <p className="text-lg font-semibold tracking-wide">
           Don’t miss out on this fantastic evening of entertainment and
           celebration!
         </p>

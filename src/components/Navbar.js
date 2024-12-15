@@ -25,7 +25,9 @@ function Navbar() {
   return (
     <nav className="bg-customGreen text-white p-4 shadow-lg fixed w-full top-0 left-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-xl font-bold">W.O.W Productions Presents</h1>
+        <h1 className="text-lg md:text-xl font-bold tracking-wide">
+          W.O.W Productions Presents
+        </h1>
 
         <button
           className="md:hidden text-2xl focus:outline-none"
@@ -65,6 +67,17 @@ function Navbar() {
               onClick={() => setIsMenuOpen(false)}
             >
               Contact
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.eventbrite.co.uk/e/wow-productions-the-ultimate-heels-dance-class-party-games-experience-tickets-1112892374049?aff=oddtdtcreator"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-white md:px-4 rounded-sm text-customGreen hover:bg-customGreen hover:text-white transition duration-300"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Book Tickets!
             </a>
           </li>
         </ul>
