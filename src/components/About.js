@@ -10,7 +10,7 @@ function About() {
   return (
     <div
       id="about"
-      className="p-8 bg-customGreen-50 text-black"
+      className="p-4 md:p-8 bg-customGreen-50 text-black"
     >
       <div className="container mx-auto text-center">
         <h2 className="text-2xl font-bold mb-14">Event Details</h2>
@@ -75,7 +75,7 @@ function About() {
 
         <div
           id="host"
-          className="mt-16 bg-white rounded-lg shadow-md p-8 text-center"
+          className="mt-16 bg-white rounded-lg shadow-md p-4 md:p-8 text-center"
         >
           <h3 className="text-2xl font-bold mb-6 text-customGreen">
             Meet Your Host

@@ -61,7 +61,7 @@ function Home() {
   return (
     <div
       id="home"
-      className="text-customGreen text-center p-8 relative bg-customGreen-50"
+      className="text-customGreen text-center p-4 md:p-8 relative bg-customGreen-50"
     >
       <div className="relative max-w-4xl mx-auto">
         <div className="relative">
@@ -70,7 +70,7 @@ function Home() {
             alt="Heels Dance"
             className="rounded-lg shadow-lg w-full h-full"
           />
-          <h1 className="absolute inset-0 flex items-center justify-center text-white text-2xl md:text-6xl font-bold bg-black/30 p-4 text-center">
+          <h1 className="absolute inset-0 flex items-center justify-center rounded-lg text-white text-2xl md:text-6xl font-bold bg-black/30 p-2 md:p-4 text-center">
             The Ultimate Heels Dance Class & Party Games Experience
           </h1>
         </div>
@@ -110,7 +110,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="mt-8 bg-slate-50 p-5">
+      <div className="mt-8 bg-slate-50 py-4 px-2 md:p-5">
         <h3 className="text-2xl font-semibold text-center">Event Highlights</h3>
         <div className="relative max-w-2xl mx-auto mt-8">
           <div
@@ -122,7 +122,7 @@ function Home() {
               alt={images[currentIndex].caption}
               className="rounded-lg shadow-lg w-full h-auto"
             />
-            <p className="absolute inset-0 flex items-center justify-center text-white text-2xl font-semibold bg-black/30">
+            <p className="absolute inset-0 flex items-center justify-center rounded-lg text-white text-2xl font-semibold bg-black/30">
               {images[currentIndex].caption}
             </p>
           </div>
