@@ -111,40 +111,41 @@ function Home() {
       </div>
 
       <div className="mt-8 bg-slate-50 py-4 px-2 md:p-5">
-        <h3 className="text-2xl font-semibold text-center">Event Highlights</h3>
-        <div className="relative max-w-2xl mx-auto mt-8">
-          <div
-            key={currentIndex}
-            className="relative animate-fadeInRightToLeft duration-300"
-          >
-            <img
-              src={images[currentIndex].src}
-              alt={images[currentIndex].caption}
-              className="rounded-lg shadow-lg w-full h-auto"
-            />
-            <p className="absolute inset-0 flex items-center justify-center rounded-lg text-white text-2xl font-semibold bg-black/30">
-              {images[currentIndex].caption}
-            </p>
-          </div>
-          <p
-            key={`${currentIndex}-description`}
-            className="flex items-center justify-center text-black text-lg mt-4 animate-fadeInRightToLeft"
-          >
-            {images[currentIndex].description}
-          </p>
-          <div className="flex justify-center mt-4 space-x-2">
-            {images.map((_, index) => (
-              <div
-                key={index}
-                onClick={() => handleDotClick(index)}
-                className={`w-3 h-3 rounded-full cursor-pointer ${
-                  index === currentIndex ? "bg-gray-800" : "bg-gray-400"
-                }`}
-              ></div>
-            ))}
-          </div>
-        </div>
-      </div>
+  <h3 className="text-2xl font-semibold text-center">Event Highlights</h3>
+  <div className="relative max-w-2xl mx-auto mt-8">
+    <div
+      key={currentIndex}
+      className="relative animate-fadeInRightToLeft duration-300"
+    >
+      <img
+        src={images[currentIndex].src}
+        alt={images[currentIndex].caption}
+        className="rounded-lg shadow-lg w-full h-64 object-cover"
+      />
+      <p className="absolute inset-0 flex items-center justify-center rounded-lg text-white text-2xl font-semibold bg-black/30">
+        {images[currentIndex].caption}
+      </p>
+    </div>
+    <p
+      key={`${currentIndex}-description`}
+      className="flex items-center justify-center text-black text-lg mt-4 animate-fadeInRightToLeft"
+    >
+      {images[currentIndex].description}
+    </p>
+    <div className="flex justify-center mt-4 space-x-2">
+      {images.map((_, index) => (
+        <div
+          key={index}
+          onClick={() => handleDotClick(index)}
+          className={`w-3 h-3 rounded-full cursor-pointer ${
+            index === currentIndex ? "bg-gray-800" : "bg-gray-400"
+          }`}
+        ></div>
+      ))}
+    </div>
+  </div>
+</div>
+
 
       <div className="mt-8 text-center">
         <p className="text-lg font-semibold">
