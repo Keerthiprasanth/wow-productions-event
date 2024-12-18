@@ -81,7 +81,7 @@ function Home() {
           W.O.W Productions Presents
         </h2>
 
-        <div className="text-sm md:text-lg mt-8 text-center space-y-6 font-serif">
+        <div className="text-sm md:text-lg mt-8 text-center space-y-6 font-serif ">
           <p className="leading-relaxed text-gray-800">
             <span className="italic">W.O.W</span> originated out of a conversation amongst friends following the
             pandemic to find and attend a local heels dance class together. As

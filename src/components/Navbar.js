@@ -23,7 +23,7 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className="bg-customGreen text-white p-4 shadow-lg fixed w-full top-0 left-0 z-50">
+    <nav className="bg-customGreen text-white p-4 shadow-lg fixed w-screen md:w-screen top-0 left-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-lg md:text-xl font-bold tracking-wide">
           W.O.W Productions Presents
@@ -40,7 +40,7 @@ function Navbar() {
           ref={menuRef}
           className={`${
             isMenuOpen ? "flex" : "hidden"
-          } md:flex md:flex-row md:space-x-6 md:items-center absolute md:static bg-customGreen w-full md:w-auto top-16 left-0 p-4 md:p-0 space-y-4 md:space-y-0 transition-all duration-300 ease-in-out`}
+          } md:flex md:flex-row md:space-x-6 md:items-center absolute md:static bg-customGreen w-auto md:w-auto top-16 left-0 p-4 md:p-0 space-y-4 md:space-y-0`}
         >
           <li>
             <a
