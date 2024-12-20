@@ -27,7 +27,7 @@ const images = [
   {
     src: prosecco2,
     caption: "Welcome Drinks",
-    description: "Drinks on arrival might be nicer but not fussed",
+    description: "Delightful refreshments to kick off your experience",
   },
   {
     src: food1,
@@ -102,8 +102,8 @@ function Home() {
             </p>
           </div>
 
-          <div className="mt-8 text-center">
-            <p className="text-base md:text-lg font-semibold tracking-wider">
+          <div className="mt-8 text-center font-serif">
+            <p className="text-base md:text-lg font-semibold tracking-wide">
               Join us for an unforgettable evening at CDCA, 1 Darker Street,
               where energy, laughter, and celebration take center stage!
             </p>
@@ -149,7 +149,7 @@ function Home() {
         </div>
 
         <div className="mt-8 text-center">
-          <p className="text-base md:text-lg font-semibold tracking-wider">
+          <p className="text-base md:text-lg font-semibold font-serif tracking-wide">
             Don’t miss out on this fantastic evening of entertainment and
             celebration!
           </p>

@@ -77,7 +77,7 @@ function About() {
           id="host"
           className="mt-16 bg-white shadow-xl p-4 md:p-8 text-center"
         >
-          <h3 className="text-2xl font-bold mb-6 text-customGreen tracking-wide">
+          <h3 className="text-xl md:text-2xl font-bold mb-6 text-customGreen tracking-wide">
             Meet Your Host
           </h3>
           <div className="flex flex-col md:flex-row items-center md:items-start">
