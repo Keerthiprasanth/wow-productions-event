@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import wowLogo3 from "../images/wowlogo3.png";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,11 +24,18 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className="bg-customGreen text-white p-4 shadow-lg fixed w-screen md:w-screen top-0 left-0 z-50">
+    <nav className="bg-customGreen text-white py-4 px-2 shadow-lg fixed w-screen md:w-screen top-0 left-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-lg md:text-xl font-bold tracking-wide">
-          W.O.W Productions Presents
-        </h1>
+        <div className="flex items-center space-x-2">
+          <img src={wowLogo3} alt="Heels Dance" className="w-8 h-8" />
+          <a
+            href="#hero"
+            className="text-base md:text-xl font-bold tracking-wide"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            W.O.W Productions Presents
+          </a>
+        </div>
 
         <button
           className="md:hidden text-2xl focus:outline-none"

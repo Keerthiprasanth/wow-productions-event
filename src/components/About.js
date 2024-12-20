@@ -10,12 +10,12 @@ function About() {
   return (
     <div
       id="about"
-      className="p-4 md:p-8 bg-customGreen-50 text-black"
+      className="p-2 md:p-8 bg-customGreen-50 text-black"
     >
       <div className="container mx-auto text-center">
-        <h2 className="text-2xl font-bold mt-8 mb-14 tracking-wide">Event Details</h2>
+        <h2 className="text-xl md:text-2xl font-bold mt-12 mb-8 tracking-wide">Event Details</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 animate-fadeInTopToBottom">
-          <div className="order-2 md:order-1 border-4 border-customGreen rounded-lg overflow-hidden shadow-md">
+          <div className="order-2 md:order-1 border-2 md:border-4 border-customGreen  overflow-hidden shadow-xl">
             <iframe
               src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBz7vcBKQftrsK9f1xaVjggx759VJE8MsY&q=${encodeURIComponent(
                 address
@@ -29,43 +29,43 @@ function About() {
             ></iframe>
           </div>
 
-          <div className="order-1 md:order-2 items-center text-center md:text-left md:ml-24 grid gap-8 md:gap-12 justify-center md:justify-start md:pl-8 bg-white py-8">
+          <div className="order-1 md:order-2 items-center text-center md:text-left md:ml-24 grid gap-8 md:gap-12 justify-center md:justify-start md:pl-8 bg-white py-8 shadow-xl">
             <div className="flex items-center justify-center md:justify-start space-x-4">
               <div>
-                <p className="text-lg font-semibold">Saturday</p>
-                <p className="text-2xl font-bold">21st December</p>
-                <p className="text-lg text-gray-600">5:00 PM - 8:00 PM</p>
+                <p className="text-base md:text-lg font-semibold tracking-wide">Saturday</p>
+                <p className="text-xl md:text-2xl font-bold tracking-wide">21st December</p>
+                <p className="text-base md:text-lg text-gray-700 tracking-wide">5:00 PM - 8:00 PM</p>
               </div>
             </div>
 
             <div className="flex items-center justify-center md:justify-start space-x-4">
               <div>
-                <p className="text-2xl font-bold">CDCA Academy</p>
-                <p className="text-lg text-gray-600">{address}</p>
+                <p className="text-xl md:text-2xl font-bold tracking-wide">CDCA Academy</p>
+                <p className="text-base md:text-lg text-gray-700 tracking-wide">{address}</p>
                 <a
                   href={googleMapsLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-4 inline-block bg-customGreen-300 hover:bg-customGreen-600 text-white text-lg font-semibold px-4 py-2 rounded-lg shadow-m transition duration-300"
+                  className="mt-4 inline-block bg-customGreen-300 hover:bg-customGreen-600 text-white text-lg font-semibold px-4 py-2 rounded-lg shadow-m transition duration-300 tracking-wide"
                 >
                   Open Maps
                 </a>
               </div>
             </div>
 
-            <div className="flex flex-col items-center md:flex-row justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-6">
+            <div className="flex flex-col items-center md:flex-row justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-6 sha">
               <div className="text-center md:text-left">
-                <div className="relative inline-flex items-center justify-center bg-customGreen-400 text-white rounded-full w-40 h-32 shadow-md">
+                <div className="relative inline-flex items-center justify-center bg-customGreen-400 hover:bg-customGreen-600 text-white rounded-full w-28 h-20 md:w-40 md:h-32 shadow-md">
                   <a
                     href="https://www.eventbrite.co.uk/e/wow-productions-the-ultimate-heels-dance-class-party-games-experience-tickets-1112892374049?aff=oddtdtcreator"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-4xl font-bold animate-bounce delay-300"
+                    className="text-2xl md:text-4xl font-bold animate-bounce delay-300"
                   >
                     £15
                   </a>
                 </div>
-                <p className="text-lg text-gray-600 mt-4">
+                <p className="text-lg text-gray-700 mt-4 tracking-wide">
                   (Limited Spaces Available)
                 </p>
               </div>
@@ -75,7 +75,7 @@ function About() {
 
         <div
           id="host"
-          className="mt-16 bg-white rounded-lg shadow-md p-4 md:p-8 text-center"
+          className="mt-16 bg-white shadow-xl p-4 md:p-8 text-center"
         >
           <h3 className="text-2xl font-bold mb-6 text-customGreen tracking-wide">
             Meet Your Host

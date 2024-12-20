@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         customGreen: { 
           DEFAULT: '#101419', 
-          50: '#E8D7B5',      
+          50: '#fcefd4',      
           100: '#DECBB7',     
           200: '#DECBB7',     
           300: '#101419',     
