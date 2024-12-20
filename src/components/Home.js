@@ -60,12 +60,17 @@ function Home() {
 
   return (
     <div>
-      <div id="hero" className="relative bg-customGreen-50">
-        <img src={heelDance3} alt="Heels Dance" className="w-full h-full" />
-        <h1 className="absolute inset-0 flex items-center justify-center text-white text-2xl md:text-6xl font-bold bg-black/40 p-8 md:pb-28 md:px-28 text-center tracking-wide">
+      <div id="hero" className="relative bg-customGreen-50 h-screen">
+        <img
+          src={heelDance3}
+          alt="Heels Dance"
+          className="w-full h-full object-cover object-[30%] md:w-full md:object-center"
+        />
+        <h1 className="absolute inset-0 flex items-center justify-center text-white text-4xl md:text-6xl font-bold bg-black/40 p-2 md:pb-28 md:px-28 text-center tracking-wide">
           The Ultimate Heels Dance Class & Party Games Experience
         </h1>
       </div>
+
       <div
         id="home"
         className="text-customGreen text-center p-2 md:p-8 relative bg-customGreen-50"
