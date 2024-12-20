@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import heelDance1 from "../images/heel-dance-1.jpg";
 import heelDance2 from "../images/heel-dance-2.jpg";
 import heelDance3 from "../images/heel-dance-3.avif";
 import interactiveGames1 from "../images/interactive-games-2.jpg";
